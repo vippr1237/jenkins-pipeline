@@ -18,7 +18,7 @@ public class CiCdDemoApplication {
 		return "<h1>Hello from devops lab<h1> " +
 				"<h2>Hello from devops engineer<h2>" +
 				"<h3>pushing from intellj"+
-				"<h3>testing jenkins-pipline<h3>";
+				"<h3>testing jenkins-pipline using poll scm<h3>";
 	}
 
 }
