@@ -1,0 +1,11 @@
+FROM adoptopenjdk/openjdk11:jre-11.0.11_9-alpine
+
+RUN mkdir /app
+
+WORKDIR /app
+
+COPY *.jar /app/app.jar
+
+CMD ["java","-jar","app.jar"]
+
+
